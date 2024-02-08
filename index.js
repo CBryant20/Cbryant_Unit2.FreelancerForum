@@ -83,39 +83,3 @@ const addFreelancerInterval = setInterval(function () {
   updateAveragePrice(state);
   render(state);
 }, 2000);
-// const addFreelancerInterval = setInterval(addPerson, 2000);
-
-// render();
-// // console.log(freelance);
-
-// function render() {
-//   const newPerson = document.querySelector("#freelancer");
-//   const newPersonElements = freelance.map((person) => {
-//     const element = document.createElement("td");
-//     element.classList.add(person.name, person.occupation, person.price);
-//     return element;
-//   });
-//   newPerson.appendChild(...newPersonElements);
-//   counterTotal++;
-//   counterElement.innerHTML = `${counterTotal}`;
-//   console.log(newPerson);
-// }
-
-// function addPerson() {
-//   const name = names[Math.floor(Math.random() * names.length)];
-//   const occupation =
-//     occupations[Math.floor(Math.random() * occupations.length)];
-//   const price = prices[Math.floor(Math.random() * prices.length)];
-
-//   freelance.push({ name, occupation, price });
-
-//   render();
-
-//   if (freelance.length >= maxPersons) {
-//     clearInterval(addFreelancerInterval);
-//     setTimeout(
-//       () => alert("Max number of freelancers!!!  Pick one already!!!"),
-//       1000
-//     );
-//   }
-// }
